@@ -1,24 +1,24 @@
-# Projeto de Rede SOHO - Cisco Packet Tracer
+#  Atividade de Iniciação
 
-Repositório para a documentação e arquivo `.pkt` do projeto de simulação de uma rede SOHO (Small Office/Home Office), desenvolvido no Cisco Packet Tracer.
+Este repositório contém o arquivo `.pkt` e a documentação de uma **atividade de iniciação** ao estudo de redes de computadores. O projeto consiste na implementação de uma rede básica para pequenos escritórios/residência, implementado no simulador Cisco Packet Tracer.
 
 ---
 
 ## 📜 Sumário
 
-- [1. Introdução](#1-introdução)
-- [2. Desenvolvimento](#2-desenvolvimento)
-  - [2.1 Planejamento e Topologia da Rede](#21-planejamento-e-topologia-da-rede)
-  - [2.2 Configuração do Roteador](#22-configuração-do-roteador)
-  - [2.3 Configuração dos Dispositivos e Validação da Conectividade](#23-configuração-dos-dispositivos-e-validação-da-conectividade)
-- [3. Conclusão](#3-conclusão)
-- [Ferramentas e Autor](#ferramentas-e-autor)
+- [1. Introdução]
+- [2. Desenvolvimento]
+  - [2.1 Planejamento e Topologia da Rede]
+  - [2.2 Configuração do Roteador]
+  - [2.3 Configuração dos Dispositivos e Validação da Conectividade]
+- [3. Conclusão]
+
 
 ---
 
 ## 1. Introdução
 
-O objetivo principal desta atividade foi aplicar os conhecimentos teóricos de redes de computadores. Para isso, utilizei o software Cisco Packet Tracer para simular a criação de uma rede. Os objetivos específicos que tracei para esta atividade foram: validar a comunicação ponta a ponta entre todos os dispositivos da rede.
+Como uma **atividade de iniciação prática**, o objetivo principal foi aplicar os conceitos fundamentais de redes de computadores. Para isso, utilizei o software Cisco Packet Tracer para simular a criação de uma rede funcional. Os objetivos específicos que tracei para esta atividade foram: validar a comunicação ponta a ponta entre todos os dispositivos da rede, aplicando configurações básicas de roteamento, DHCP e segurança wireless.
 
 ## 2. Desenvolvimento
 
@@ -35,9 +35,6 @@ A primeira etapa foi a montagem da infraestrutura de rede. Os componentes utiliz
 
 Realizei a conexão física dos dispositivos com cabo direto (Copper Straight-Through), ligando os PCs e a impressora ao switch, e este, por sua vez, a uma das portas LAN do roteador.
 
-*Insira aqui o seu print da topologia. Para isso, suba a imagem para o seu repositório GitHub e substitua `caminho/para/imagem_topologia.png` pelo link da imagem.*
-![Topologia da Rede](caminho/para/imagem_topologia.png)
-
 ### 2.2 Configuração do Roteador
 
 Com a rede fisicamente montada, o passo seguinte e mais crucial foi a configuração lógica do roteador.
@@ -50,8 +47,6 @@ Além do Gateway, configurei os seguintes serviços essenciais no roteador:
 - **Servidor DHCP:** Habilitei o serviço para automatizar a atribuição de IPs na rede, configurando a faixa para iniciar em `192.168.10.100` com um limite de 50 usuários.
 - **Segurança Wireless:** Criei uma rede Wi-Fi com o SSID "MinhaRedeSOHO" e a protegi com o protocolo de segurança WPA2 Personal.
 
-*Insira aqui o seu print da tela de configuração do roteador. Substitua `caminho/para/imagem_config.png` pelo link.*
-![Configuração do Roteador](caminho/para/imagem_config.png)
 
 ### 2.3 Configuração dos Dispositivos e Validação da Conectividade
 
@@ -78,18 +73,8 @@ Para validar a comunicação, utilizei a ferramenta `ping`. Um `ping` bem-sucedi
 
 Todos os testes retornaram com 100% de sucesso, confirmando que a rede estava totalmente operacional.
 
-*Insira aqui o seu print de um teste de ping bem-sucedido. Substitua `caminho/para/imagem_ping.png` pelo link.*
-![Teste de Ping](caminho/para/imagem_ping.png)
 
 ## 3. Conclusão
 
-A execução desta atividade permitiu-me aplicar e consolidar de forma prática os conhecimentos teóricos sobre redes. A implementação da rede foi concluída com sucesso, atingindo todos os objetivos falados na introdução. A rede se mostrou estável, segura e funcional, com todos os dispositivos obtendo configurações de rede certa e se comunicando de forma transparente. Esta atividade reforçou minha compreensão sobre a importância do planejamento de rede e o papel central de um roteador.
+Sendo uma **atividade de iniciação**, a execução deste projeto foi fundamental para me permitir aplicar e consolidar de forma prática os conhecimentos teóricos sobre redes. A implementação foi concluída com sucesso, atingindo todos os objetivos definidos na introdução. A rede se mostrou estável, segura e funcional, e esta atividade reforçou minha compreensão sobre a importância do planejamento de rede e o papel central de um roteador.
 
----
-
-## Ferramentas e Autor
-
-- **Ferramenta Utilizada:** Cisco Packet Tracer 8.2
-- **Autor:** [Seu Nome Completo]
-  - **GitHub:** [Link para seu GitHub]
-  - **LinkedIn:** [Link para seu LinkedIn]
